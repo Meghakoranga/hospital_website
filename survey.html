@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="a2.css">
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Patient Satisfaction Survey Form</h1>
+            <h3>Please fill the survey form to help us to improve</h3>
+            <label>1. &nbsp;Enter your Name</label><br>
+            <input type="text" name="first" required placeholder="Name" pattern="[A-Za-z]+" required ><br><br>
+            <label>2. &nbsp;Email Address</label><br>
+            <input type="email" name="email" placeholder="xyz@gmail.com" required><br><br>
+            <label>3. &nbsp;Gender </label><br>
+    <select  id="sex" name="sex">
+      <option value="F" label="Female"></option>
+      <option value="M" label="Male"></option>
+      <option value="N" label="Neutral"></option>
+      </select><br><br>
+            <label>4.&nbsp; Contact Details</label><br>
+            <input type="text" name="phone" pattern="[0-9]{10}" placeholder="Enter your Phone no." title="only numbers[10digits]" required><br><br>  
+            <label>5. &nbsp;Date of birth</label><br>
+            <input type="date" required><br>
+            <label>6.&nbsp; How did you find the experience of booking appointments? </label><br>
+            <input type="radio" name="exp">Very easy <br>
+            <input type="radio" name="exp">Easy <br>
+            <input type="radio" name="exp">Somewhat easy <br>
+            <input type="radio" name="exp">Difficult<br>
+            <input type="radio" name="exp">Somewhat Difficult<br>
+            <input type="radio" name="exp">Very Difficult<br><br>
+            <label>7.&nbsp; Were you satisfied with the doctor you were allocated with?</label><br>
+            <input type="radio" name="doctor">Extremely satisfied<br>
+            <input type="radio" name="doctor">Satisfied<br>
+            <input type="radio" name="doctor">Dissatisfied<br><br>
+            <label>8.&nbsp; How likely are you to recommend us to your friends and family?</label><br>
+            <input type="checkbox" name="name">Very likely <br>
+            <input type="checkbox" name="name">Likely<br>
+            <input type="checkbox" name="name">Somewhat likely<br>
+            <input type="checkbox" name="name">Not very likely<br>
+            <input type="checkbox" name="name">Never<br><br>
+
+            <label>9.&nbsp; Were we able to answer all your questions?</label><br>
+            <input type="radio" name="name">Yes <br>
+            <input type="radio" name="name">Somewhat Yes<br>
+            <input type="radio" name="name">Some questions were left unanswered<br>
+            <input type="radio" name="name">No<br><br>
+            <label>10.&nbsp; How much do you rate us? (5 being the highest rating)</label><br><br>
+            <input type="radio"name="s1" value="rate">1 &nbsp;&nbsp;
+            <input type="radio" name="s2" value="rate">2&nbsp;&nbsp;
+            <input type="radio" name="s3" value="rate">3&nbsp;&nbsp;
+            <input type="radio" name="s4" value="rate">4&nbsp;&nbsp;
+            <input type="radio" name="s4" value="rate">5&nbsp;&nbsp;
+<br><br>
+            <label>11.&nbsp; What are the things you feel we should improve upon?</label><br>
+            <textarea name="comment" id="comment" placeholder="Enter your comments">
+            </textarea><br><br>
+            <label>12. &nbsp; Any other comments/ suggestions</label><br>
+            <textarea name="comment" id="comment1" placeholder="Enter your comments">
+            </textarea><br><br>
+           <center> <button type="submit" value="submit">SUBMIT</button></center>
+        </form>
+    </div>
+</body>
+</html>

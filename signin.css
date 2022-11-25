@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(223, 245, 255);
+}
+form{
+    margin: 10% 20%;
+    padding: 2em;
+    border: 3px solid darkblue;
+}
+
+input{
+  
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color:white;
+  }
+.rbtn{
+    margin-left: 20em;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(124, 191, 235);
+    font-weight: bolder;
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: halyard-display, sans-serif;
+    background: #724387;
+    }
+    .class1 {
+    text-align: center;
+    padding: 40px 0;
+    }   
+    .class1 h3 {
+    font-size: 50px;
+    color:white;
+    margin: 0;         
+    font-family: 'Plus Jakarta Display Medium';
+    }  
+    footer {
+    background: #724387;
+    padding: 100px 0;
+    }
+    
+    footer h4 {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #dedede;
+    font-size: 20px;  
+    margin: 20px 0; 
+    }
+    footer p {
+    color: #dedede;
+    font-family: 'DM Sans';
+    font-size: 17px;  
+    }
+    .social_links ul {
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    }
+    .social_links ul li {
+    padding-right: 15px;
+    }
+    .social_links img {
+    width: 20px;
+    }
+    .foot_add img {
+    float: left;
+    margin-right: 10px;
+    height: 28px;
+    width: 20px;
+    color: #fff;
+    border-radius: 10%;
+    text-align: center;
+    }
+    .copyright {
+    background: #653d77;
+    padding: 10px 0;   
+    }
+    .copyright p {
+    margin: 0;
+    font-family: 'DM Sans';
+    font-size: 13px;
+    color: #dedede;  
+    }
+  
+   
+    @media (max-width: 480px) {
+    .carop a {
+    font-size: 18px !important;   
+    }
+    .carop {         
+    padding: 25px !important;
+    }
+    .carop h3 {
+    font-size: 20px !important; 
+    line-height: 35px !important;  
+    }
+
+
+    .carop-sec {
+    padding: 40px 0 !important;  
+    }
+    .fbd-address-block {
+    padding: 15px !important;   
+    }
+    .form-container {
+    padding: 15px !important;  
+    }
+    footer {
+    background: #724387;
+    padding: 60px 0;
+    }
+    }
+    .form-container {
+    padding: 15px !important;  
+    }
+    
+
+   
+    .carop a {
+    border-bottom: 1px dashed #011954;
+    color: #011954;
+    font-size: 23px;
+    text-decoration: none;   
+    }
+    .carop p {
+    margin: 0;
+    text-align: left;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    line-height: 38px;
+    }
+    .carop h3 {
+    font-family: 'Plus Jakarta Text Regular';
+    line-height: 54px;
+    font-size:23px;
+    color: #724387;
+    margin: 0;
+    }
+    .carop {
+    border-top: 1px solid #e5d6ec;
+    padding: 40px;
+    background: white;
+    margin-bottom: 30px;
+    }
+    .career-ty {
+    padding: 0px 0 65px 0;  
+    }
+    ul{
+        list-style-type: none;
+    }
+    ul .img{
+        width:12px;
+        height:5px;
+        padding: 5px;
+        float:left;}

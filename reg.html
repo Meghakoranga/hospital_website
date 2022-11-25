@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+  <form>
+  <div class="container">
+  <header>
+        <h1>Registration Form</h1><hr>
+  </header>&nbsp;
+  <p>Please fill in this form to create an account.</p>
+
+  <p>By completing all the following steps you get registered with us. </p><br>
+    <label>Patient Name<br>
+     <input id="l1" type="text"name="Name" placeholder="First" required>
+      <input id="l1" type="text"name="Name" placeholder="middle">
+      <input id="l1" type="text"name="Name" placeholder="last" >
+</label><br><br>
+  <label>Address</label>
+      <input type="text" name="Address" required><br><br>
+    <label>City</label>
+      <input type="text" name="City" required>
+      &nbsp;&nbsp;&nbsp;
+    <label for ="state">State/Province</label>
+      <select id="state" name="state">
+        <option value="Andra Pradesh" label="Andra Pradesh"></option>
+        <option value="Assam" label="Assam"></option>
+        <option value="Delhi" label="Delhi"></option>
+         <option value="Goa" label="Goa"></option>
+        <option value="Maharashtra" label="Maharashtra"></option>
+        <option value="Madhya Pradesh " label=" Madhya  Pradesh"></option>
+        <option value="Sikkim" label="Sikkim"></option>
+        <option value="Punjab"label="Punjab"></option>
+          <option value="Haryana" label="Haryana"></option>
+          <option value="Rajasthan" label="Rajasthan"></option>
+          <option value="Uttar Pradesh" label="Uttar Pradesh"></option>
+          <option value="Uttarakhand" label="Uttarakhand"></option>
+      </select>  
+        <br><br>
+    <label for="Phone ">Phone Number</label>
+    <input type="tel"name="phone" id="phone" required><br><br>
+    <label for="email">E-mail</label>
+    <input type="email" placeholder="Enter your  e-mail address" name="email" id="email" ><br><br>
+    <label>Sex </label>
+    <select  id="Gender" name="Gender">
+      <option value="F" label="Female"></option>
+      <option value="M" label="Male"></option>
+      <option value="N" label="Neutral"></option>
+      </select><br><br>
+    <label for="psw"><b> Create your Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><br>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy<input type="checkbox" required></a>.</p>
+    <button type="submit" class="rbtn">Register</button>
+  </div>
+  <div class="container signin">
+    <p>Already have an account? <a href="signin.html" target="_blank">Sign in</a>.</p>
+  
+</div>
+</form>
+</body>
+</html>

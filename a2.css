@@ -1,0 +1,81 @@
+
+body{
+    background:url(img.jpg);
+    background-size: 150% 120%;
+    background-repeat: no-repeat;
+   opacity: 80%;
+    background-color: linear-gradient(rgba(34, 198, 210, 0.3),rgba(239, 222, 246, 0.7));
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-size:medium;
+    color: blue;
+}
+form{
+    background-color:rgb(185, 204, 245);
+    max-width: 800px;
+    margin:50px auto;
+    box-shadow: 2px 5px 10px rgba(102, 112, 201, 0.856);
+    text-align: left;
+}
+input{
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+label{
+    font-weight: bold;
+}
+#comment{
+    width:80%;
+    resize: none;
+    margin-top: 5px;
+    padding: 12px 20px;
+    border: 2px rgb(183, 182, 184);
+    border-radius: 4px;
+    background-color:rgb(224, 220, 220);
+    opacity:30%;
+    font-size: 16px;
+    height: 100px;
+}
+#comment1
+{
+    width:80%;
+    resize: none;
+    margin-top: 5px;
+    padding: 12px 20px;
+    border: 2px rgb(212, 200, 251);
+    border-radius: 4px;
+    background-color:rgb(224, 220, 220);
+    opacity:30%;
+        font-size: 16px;
+    height: 150px;
+}
+
+
+
+button{
+    
+    background-color: rgb(200, 130, 223);
+    border:2px rgb(200,130,223);
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    padding: 2px;
+    text-align: center;
+    color: black;
+   
+}

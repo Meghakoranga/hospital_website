@@ -1,7 +1,5 @@
 # This is the webpage for a Hospital using Html and CSS [click here](new1.html)
-#### Here is the home page
-!(Uploading Screenshot 2024-01-11 at 1.22.29 AM.png…)()
-![Uploading Screenshot 2024-01-11 at 1.22.12 AM.png…]()
+
 
 
 ## Getting Started

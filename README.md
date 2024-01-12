@@ -1,4 +1,4 @@
-# This is the webpage for a Hospital using Html and CSS [click here](new1.html)
+# This is a webpage for a Hospital using Html and CSS [click here](new1.html)
 
 
 
